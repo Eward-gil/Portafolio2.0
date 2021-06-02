@@ -1,0 +1,493 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2? family = Anton & family = Sigmar + One & display = swap');  */
+
+
+
+p,button,a,li{
+    font-family: 'Anton', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Sigmar One', cursive;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: #0000;
+}
+/*  INICIO HEADER */
+
+header .bg-port-e{
+    background: #6e6c69;
+}
+
+header nav  .container .navbar-collapse{ 
+    justify-content: flex-end;
+}
+
+header .navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+}
+
+header .navbar-dark .navbar-nav .nav-link:hover{
+    color: rgb(204, 18, 241);
+}
+
+header nav .navbar-brand-logo img{
+    max-width: 40px;
+}
+
+header .navbar-brand-logo a{
+    color: white;
+}
+
+header{
+    position: relative;
+}
+
+header .navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+
+/* FIN HEADER */
+/* inicio Hobbiet */
+#Hobbiet{
+    width: 100%;
+    padding: 60px 0;
+    background: url(../img/fondo\ 2.png) no-repeat;
+    background-size: cover;
+}
+
+#Hobbiet{
+    width: 100%;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    text-align: center;
+} 
+#Hobbiet h2, p{
+    color: white;
+
+}
+
+#Hobbiet .row .col-card-Hobbiet{
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    margin-top: 40px;
+}
+#Hobbiet .row .col-card-Hobbiet img{
+    max-width: 100%;
+    margin-top: 100px;
+    margin-left: 20px;
+    transition: 1s;
+}
+
+#Hobbiet .row .col-card-Hobbiet img:hover{
+    border-radius: 50%;
+    transform: rotate(360deg);
+}
+  
+#Hobbiet .row .col-card-Hobbiet h3{
+    color: white;
+    top: 25%;
+    margin-left: 30px;
+    right: 0;
+}
+.tab-content h3, p{
+    color: white;
+}
+
+.tab-pane .row .col-md-12 iframe{
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+
+}
+/* fin Hobbiet */
+
+/* INICIO estudios */
+#estudios{
+    width: 100%;
+    padding: 60px 0;
+    background: url(../img/fondo\ 2.png) no-repeat;
+    background-size: cover;
+}
+#estudios{
+    width: 100%;
+    padding: 60px 0;
+    background: url(../img/fondo\ 2.png) no-repeat;
+    background-size: cover;
+}
+
+#estudios{
+    width: 100%;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    text-align: center;
+} 
+#estudios h2, p{
+    color: white;
+
+}
+
+#estudios .row .col-card-estudios{
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    margin-top: 40px;
+}
+
+#estudios .row .col-card-estudios img{
+    max-width: 90%;
+    margin-top: 100px;
+    margin-left: 25px;
+    transition: 1s;
+}
+
+#estudios .row .col-card-estudios img:hover{
+    border-radius: 50%;
+    transform: rotate(360deg);
+}
+  
+#estudios .row .col-card-estudios h3{
+    color: white;
+    top: 25%;
+    margin-left: 30px;
+    right: 0;
+}
+/* FIN estudios */
+
+/* INICIO habilidades */
+#habilidades{
+    width: 100%;
+    padding: 60px 0;
+    background: url(../img/fondo\ 3.png) no-repeat;
+    background-size: cover;
+}
+
+#habilidades  .targeta-e{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#habilidades  .targeta-e .title{
+    padding: 10px;
+}
+
+#habilidades  .targeta-e .title img{
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+#habilidades  .targeta-e .title h3{
+    color: white;
+    font-size: 23px;
+    margin-top: 0px;
+}
+
+#habilidades  .targeta-e .cont-text{
+    padding: 14px 10px;
+}
+
+#habilidades  .targeta-e .cont-text p{
+    color: white;
+}
+
+#habilidades  .targeta-e .cont-text a{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* fin habilidades */
+
+/* INICIO CONTACTOS */
+
+#contacto{
+    background: #030303;
+    padding: 60px 0 80px;
+    text-align: center;
+}
+#contacto h2{
+    color: white;
+}
+
+#contacto .container form{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#contacto .container form input{
+    width: 38%;
+    color: black;
+    margin: 10px 15px;
+    padding: 9px 20px;
+    border-radius: 4px;
+}
+
+#contacto .container form button{
+    background:#0f96e4 ;
+    color: white;
+    margin-top: 30px;
+    padding: 8px 50px;
+    font-size: 20px;
+    transition: 1s;
+    border-radius: 4px;
+}
+
+#contacto .container form button:hover{
+    transform: scale(1.1);
+}
+
+#contacto .container img{
+    width: 300px;
+    margin-top: auto;
+}
+#contacto .container form img{
+    width: 200px;
+    margin-top: auto;
+}
+#contacto .W-button{
+    position: fixed;
+    right: 20px;
+    bottom: 150px;
+
+}
+
+#contacto .W-button a img{
+    width: 60px;
+}
+/* FINAL CONTACTOS */
+
+#btn-elemento{
+    position: fixed;
+    z-index: 11;
+    top: 242px;
+    right: -53px;
+    transform: rotate(-90deg);
+    background: #2b4f7f;
+    color: #fff;
+    padding: 13px 50px;
+    border: none;
+    transition: .4s;
+}
+
+#btn-elemento.active{
+    right: 150px;
+    transition: .4s;
+}
+
+#cont-colors{
+    background: #fff;
+    position: fixed;
+    z-index: 11;
+    top: 198px;
+    right: -273px;
+    padding: 36px 20px;
+    transition: .4s;
+
+}
+
+#cont-colors.active{
+    right: 0;
+    transition: .4s;
+}
+
+#cont-colors #black{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+#cont-colors #yellow{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+#cont-colors #orange{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: orange;
+}
+#cont-colors #purple{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: purple;
+}
+#cont-colors #red{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+}
+#cont-colors #original{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #6e6c69;
+}
+
+#cont-colors h3{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #2b4f7f;
+}
+
+/* variantes de temas */
+/* black */
+#body.black header .bg-port-e{
+    background: black;
+}
+
+#body.black #btn-elemento{
+    background: black;
+}
+
+#body.black #contacto{
+    background: black;
+}
+/* fin black */
+/* yellow */
+#body.yellow header .bg-port-e{
+    background: yellow;
+}
+
+#body.yellow #btn-elemento{
+    background: yellow;
+}
+
+#body.yellow header .navbar-dark .navbar-nav .nav-link{
+    color: black;
+}
+
+#body.yellow #btn-elemento{
+    color: black;
+}
+#body.yellow a.navbar-brand-logo{
+    color: black;
+} 
+
+#body.yellow #contacto h2{
+    color: black;
+} 
+
+#body.yellow #contacto{
+    background: yellow;
+}
+/* fin yellow */
+/* orange */
+#body.orange header .bg-port-e{
+    background: orange;
+}
+
+#body.orange #btn-elemento{
+    background: orange;
+}
+
+#body.orange header .navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+
+#body.orange #btn-elemento{
+    color: white;
+}
+#body.orange a.navbar-brand-logo{
+    color: white;
+} 
+
+#body.orange #contacto h2{
+    color: white;
+} 
+#body.orange #contacto{
+    background: orange;
+}
+/* fin orange */
+/* purple */
+#body.purple header .bg-port-e{
+    background: purple;
+}
+
+#body.purple #btn-elemento{
+    background: purple;
+}
+#body.purple header .navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+
+#body.purple #btn-elemento{
+    color: white;
+}
+#body.purple a.navbar-brand-logo{
+    color: white;
+} 
+
+#body.purple #contacto h2{
+    color: white;
+} 
+#body.purple #contacto{
+    background: purple;
+}
+/* fin purple */
+/* red */
+#body.red header .bg-port-e{
+    background: red;
+}
+
+#body.red #btn-elemento{
+    background: red;
+}
+#body.red header .navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+
+#body.red #btn-elemento{
+    color: white;
+}
+#body.red a.navbar-brand-logo{
+    color: white;
+} 
+
+#body.red #contacto h2{
+    color: white;
+} 
+#body.red #contacto{
+    background: red;
+}
+/* fin red */
+/* original */
+#body.original header .bg-port-e{
+    background: #6e6c69;
+}
+
+#body.original #btn-elemento{
+    background: #2b4f7f;
+}
+#body.original header .navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+
+#body.original #btn-elemento{
+    color: white;
+}
+#body.original a.navbar-brand-logo{
+    color: white;
+} 
+
+#body.original #contacto h2{
+    color: white;
+} 
+#body.original #contacto{
+    background: #030303;
+}
+/* fin original */
